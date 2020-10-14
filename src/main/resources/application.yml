@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:approvalDB;DB_CLOSE_ON_EXIT=FALSE
+  jpa:
+    hibernate:
+      ddl-auto: update
+Access-Control-Allow-Origin : http://localhost:3000
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : GET, POST, OPTIONS
+Access-Control-Allow-Headers : Origin, Content-Type, Accept
